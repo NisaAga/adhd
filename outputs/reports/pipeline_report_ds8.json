@@ -1,0 +1,176 @@
+{
+  "flat_or_nan_subjects_detected": {
+    "FADHD_06": [
+      4,
+      10,
+      11
+    ]
+  },
+  "excluded_subjects": {
+    "FADHD_06": "channel 2 (F4) is constant (std = 0) in cells 4/10/11"
+  },
+  "train_cell_identical_to_val_cell": {
+    "FADHD": true,
+    "MADHD": true,
+    "FC": true,
+    "MC": true
+  },
+  "native_lengths": {
+    "4": 11520,
+    "10": 11520,
+    "11": 11520
+  },
+  "common_length": 11520,
+  "downsample_factor": 8,
+  "quality": [
+    {
+      "name": "cell4_raw",
+      "shape": [
+        79,
+        11520,
+        2
+      ],
+      "n_nan": 0,
+      "n_inf": 0,
+      "n_flat_channels": 0,
+      "min": -511.176,
+      "max": 517.525,
+      "mean": 0.045877189917369894,
+      "std": 23.905942325715912
+    },
+    {
+      "name": "cell4_processed",
+      "shape": [
+        79,
+        1440,
+        2
+      ],
+      "n_nan": 0,
+      "n_inf": 0,
+      "n_flat_channels": 0,
+      "min": -10.682360649108887,
+      "max": 15.563621520996094,
+      "mean": 1.715102007437963e-05,
+      "std": 0.8852994441986084
+    },
+    {
+      "name": "cell10_raw",
+      "shape": [
+        79,
+        11520,
+        2
+      ],
+      "n_nan": 0,
+      "n_inf": 0,
+      "n_flat_channels": 0,
+      "min": -511.176,
+      "max": 517.525,
+      "mean": 0.045877189917369894,
+      "std": 23.905942325715912
+    },
+    {
+      "name": "cell10_processed",
+      "shape": [
+        79,
+        1440,
+        2
+      ],
+      "n_nan": 0,
+      "n_inf": 0,
+      "n_flat_channels": 0,
+      "min": -10.682360649108887,
+      "max": 15.563621520996094,
+      "mean": 1.715102007437963e-05,
+      "std": 0.8852994441986084
+    },
+    {
+      "name": "cell11_raw",
+      "shape": [
+        79,
+        11520,
+        2
+      ],
+      "n_nan": 0,
+      "n_inf": 0,
+      "n_flat_channels": 0,
+      "min": -511.176,
+      "max": 475.7,
+      "mean": 0.014014309181610424,
+      "std": 22.014801773918446
+    },
+    {
+      "name": "cell11_processed",
+      "shape": [
+        79,
+        1440,
+        2
+      ],
+      "n_nan": 0,
+      "n_inf": 0,
+      "n_flat_channels": 0,
+      "min": -11.28780746459961,
+      "max": 15.502050399780273,
+      "mean": -3.829146226053126e-05,
+      "std": 0.8704424500465393
+    }
+  ],
+  "shapes": {
+    "X_train": [
+      79,
+      1440,
+      2
+    ],
+    "y_train": [
+      79
+    ],
+    "X_val": [
+      79,
+      1440,
+      2
+    ],
+    "y_val": [
+      79
+    ],
+    "X_test": [
+      79,
+      1440,
+      2
+    ],
+    "y_test": [
+      79
+    ],
+    "X_eval": [
+      158,
+      1440,
+      2
+    ],
+    "y_eval": [
+      158
+    ]
+  },
+  "class_counts": {
+    "train": {
+      "healthy": 42,
+      "adhd": 37
+    },
+    "val": {
+      "healthy": 42,
+      "adhd": 37
+    },
+    "test": {
+      "healthy": 42,
+      "adhd": 37
+    },
+    "eval": {
+      "healthy": 84,
+      "adhd": 74
+    }
+  },
+  "fold_sizes": [
+    16,
+    16,
+    16,
+    16,
+    15
+  ]
+}
